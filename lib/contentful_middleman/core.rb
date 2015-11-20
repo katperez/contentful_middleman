@@ -35,7 +35,7 @@ module ContentfulMiddleman
       'Allow multiple requests to the API for getting over 1000 entries'
 
     option :rebuild_on_webhook, false,
-      "Run `middleman contentful --rebuild` upon receiving a Webhook on http://0.0.0.0:5678/receive"
+      "Run `middleman contentful --rebuild` upon receiving a Webhook on https://api.netlify.com/build_hooks/564be07ad6865d57a2000038"
 
     option :webhook_timeout, 300,
       "Wait time before rebuild after receiving a Webhook call"
